@@ -37,7 +37,7 @@ const upload = multer({ dest: 'uploads/' });
 const CLIENT_ID = '1039609089231-fjaai67fkp49vk629qqvt4anekglji8u.apps.googleusercontent.com';
 const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04QPE2yAlff0DCgYIARAAGAQSNwF-L9IrOxUFjn--s_a6NG4auO1CsVmgYpcCua1js_wFgNPBb86jrK12hqDd3C6oISiWM_P1c3o';
+const REFRESH_TOKEN = '';
 
 const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 oauth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
